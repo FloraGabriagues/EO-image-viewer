@@ -59,16 +59,16 @@ python viewer_napari.py /path/to/S2_directory --dir --bin 4
 
 ## Tools menu
 
-Once the viewer is open, all tools are accessible via the **Outils** menu in the top bar:
+Once the viewer is open, all tools are accessible via the **Tools** menu in the top bar:
 
 | Tool | Description |
 |---|---|
-| Créer une composition | Build an RGB composite from 3 selected layers |
-| Resampling pour stacking | Resample one band to match another's resolution |
-| Régler le contraste manuellement | Set explicit min/max contrast limits |
-| Afficher l'histogramme | Per-band or RGB histogram |
-| Sauvegarder la couche | Export as raw GeoTIFF or screen render (PNG/JPG/TIF) |
-| Calculer la FTM | MTF computation from a selected line *(in progress)* |
+| Create Composition | Build an RGB composite from 3 selected layers |
+| Resample | Resample one band to match another's resolution |
+| Adjust Contrast | Set explicit min/max contrast limits |
+| Display Histogram | Per-band or RGB histogram |
+| Save Layer | Export as raw GeoTIFF or screen render (PNG/JPG/TIF) |
+| Compute MTF | MTF computation from a selected line *(in progress)* |
 
 ---
 
