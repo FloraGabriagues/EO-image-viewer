@@ -37,6 +37,8 @@ A Napari viewer extended with a custom tools menu for common EO image analysis t
 | Render export (PNG/JPG, contrast + gamma applied) | ✅ stable |
 | FTM computation | 🚧 in progress |
 
+<img width="2159" height="1550" alt="image" src="https://github.com/user-attachments/assets/a261a934-8d80-4fb8-906d-f7aba325491a" />
+
 ---
 
 ## Usage
