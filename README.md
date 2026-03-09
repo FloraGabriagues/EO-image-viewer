@@ -17,7 +17,7 @@ A Napari viewer extended with a custom tools menu for common EO image analysis t
 - Control contrast manually or via histogram
 - Export layers as raw data or screen render
 
-<img width="2157" height="1549" alt="image" src="https://github.com/user-attachments/assets/a9d7a76d-1f6f-4727-8fbf-1b8506e17822" />
+<img width="2157" height="1549" alt="image" src="https://github.com/user-attachments/assets/1c592632-311f-4577-803b-4e7ecd349fa8" />
 
 ---
 
