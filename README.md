@@ -37,7 +37,8 @@ A Napari viewer extended with a custom tools menu for common EO image analysis t
 | Histogram display (per band + RGB) | ✅ stable |
 | Raw export (GeoTIFF, uint16) | ✅ stable |
 | Render export (PNG/JPG, contrast + gamma applied) | ✅ stable |
-| FTM computation | 🚧 in progress |
+| MTF computation | 🚧 in progress |
+| SNR computation | 🚧 in progress |
 
 ---
 
@@ -71,7 +72,7 @@ Once the viewer is open, all tools are accessible via the **Tools** menu in the 
 | Display Histogram | Per-band or RGB histogram |
 | Save Layer | Export as raw GeoTIFF or screen render (PNG/JPG/TIF) |
 | Compute MTF | MTF computation from a selected line *(in progress)* |
-
+| Compute SNR | *(in progress)* |
 ---
 
 ## Resampling
