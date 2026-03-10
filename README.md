@@ -127,7 +127,7 @@ pip install napari rasterio numpy matplotlib magicgui scikit-image imageio dask
 | File | Content |
 |---|---|
 | `viewer_napari.py` | Main viewer, tools menu, all widgets |
-| `metrics.py` | Image quality metrics — FTM *(in progress)* |
+| `metrics.py` | Image quality metrics *(in progress)* |
 
 ---
 
