@@ -75,7 +75,19 @@ Once the viewer is open, all tools are accessible via the **Tools** menu in the 
 | Compute SNR | *(in progress)* |
 ---
 
+## MTF computation
+
+The **Compute MTF** tool estimates the Modulation Transfer Function from an edge profile drawn directly on the image.
+
+Two modes are available:
+- **Slanted edge** — discrete FFT of the LSF, with optional windowing (Hann, Hamming, Blackman). Standard approach per ISO 12233.
+- **Contributor fit** — parametric fit of the MTF to separate optical blur (gaussian, σ) and pixel integration (sinc, d). Useful for budget decomposition.
+
+Validated on Sentinel-2 Band 4 — fitted σ ≈ 0.98 px (FWHM ≈ 2.3 px), consistent with published in-orbit measurements.
+
 <img width="2562" height="1600" alt="image" src="https://github.com/user-attachments/assets/413a2aa9-82e1-4d1e-b286-f73ff765ce7c" />
+
+---
 
 ## Resampling
 
