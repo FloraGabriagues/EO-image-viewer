@@ -37,7 +37,7 @@ A Napari viewer extended with a custom tools menu for common EO image analysis t
 | Histogram display (per band + RGB) | ✅ stable |
 | Raw export (GeoTIFF, uint16) | ✅ stable |
 | Render export (PNG/JPG, contrast + gamma applied) | ✅ stable |
-| MTF computation | 🚧 in progress |
+| MTF computation from edge (slanted edge + parametric fit) | 🚧 in progress |
 | SNR computation | 🚧 in progress |
 
 ---
@@ -71,9 +71,11 @@ Once the viewer is open, all tools are accessible via the **Tools** menu in the 
 | Adjust Contrast | Set explicit min/max contrast limits |
 | Display Histogram | Per-band or RGB histogram |
 | Save Layer | Export as raw GeoTIFF or screen render (PNG/JPG/TIF) |
-| Compute MTF | MTF computation from a selected line *(in progress)* |
+| Compute MTF | Extract ESF from a drawn line on the image, compute MTF via FFT (slanted edge) or parametric fit (gaussian, sinc, sinc×gaussian) |
 | Compute SNR | *(in progress)* |
 ---
+
+<img width="2562" height="1600" alt="image" src="https://github.com/user-attachments/assets/413a2aa9-82e1-4d1e-b286-f73ff765ce7c" />
 
 ## Resampling
 
@@ -128,6 +130,7 @@ pip install napari rasterio numpy matplotlib magicgui scikit-image imageio dask
 |---|---|
 | `viewer_napari.py` | Main viewer, tools menu, all widgets |
 | `metrics.py` | Image quality metrics *(in progress)* |
+| `fonctions/QI.py` | MTF computation core functions (reusable outside viewer) |
 
 ---
 
